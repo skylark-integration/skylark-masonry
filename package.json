@@ -1,0 +1,35 @@
+{
+  "name": "skylark-masonry",
+  "description": "A version of masonry that ported to running on skylarkjs",
+  "version": "0.9.0",
+  "keywords": [
+    "skylark",
+    "jqueryui"
+  ],
+  "scripts": {
+    "build": "sbundle build ."
+  },
+  "homepage": "https://github.com/skylark-integration/skylark-masonry/",
+  "author": "Hudaokeji, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylark-integration/skylark-masonry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylark-integration/skylark-masonry/issues"
+  },
+  "files": [
+    "demos/",
+    "dist/",
+    "src/",
+    "skins/"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "skylark-jquery": "git+https://github.com/skylark-integration/skylark-jquery.git#master",
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
